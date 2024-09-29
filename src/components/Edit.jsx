@@ -22,7 +22,7 @@ const Edit = ({ editTodo, task }) => {
         onChange={(e) => setValue(e.target.value)}
         value={value}
       />
-      <button className="bg-purple-100 border-none text-purple-100 cursor-pointer rounded flex-shrink-0">
+      <button className="bg-purple-700 border-none text-purple-100 cursor-pointer rounded flex-shrink-0 p-4">
         Update Task
       </button>
     </form>
