@@ -11,7 +11,7 @@ const Form = ({ createTodo }) => {
   };
   return (
     <form
-      className="font-primary w-full flex items-center space-x-4 p-6 mx-auto"
+      className="font-primary w-full flex items-center space-x-4 my-6"
       onSubmit={handleSubmit}
     >
       <input
